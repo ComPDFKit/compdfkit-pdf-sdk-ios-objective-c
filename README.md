@@ -37,7 +37,7 @@ In this guide, we take ***"PDFViewer"*** as an example to show how to run it in 
 
 1. Copy the applied ***"license_key_ios.xml"*** file to ***"Examples"*** folder to replace (There is already a method to parse the xml file in demo, please do not modify the storage location and file name).
 
-2. Find ***"PDFViewer.xcodeproj"*** in the ***"Examples/Objective-C"*** folder and double-click to open it, find the schemes of ***"PDFViewer"*** in Xcode, and select the corresponding simulator (ComPDFKit does not support the simulator to run M1 chip, but we have made it compatible in `Excluded Architectures`, you can see the processing method in [Troubleshooting](#2.4.5 Troubleshooting)).
+2. Find ***"PDFViewer.xcodeproj"*** in the ***"Examples/Objective-C"*** folder and double-click to open it, find the schemes of ***"PDFViewer"*** in Xcode, and select the corresponding simulator (ComPDFKit does not support the simulator to run M1 chip, but we have made it compatible in `Excluded Architectures`, you can see the processing method in **Troubleshooting**.
 
    <img align="center" src="image/2-1-0.png" alt="2-1-0" width="50%" height="50%" />
 
