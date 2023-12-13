@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F6B6C3C2A173F6D0030C94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B6C3B2A173F6D0030C94E /* AppDelegate.m */; };
+		4F6B6C3F2A173F6D0030C94E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B6C3E2A173F6D0030C94E /* SceneDelegate.m */; };
+		4F6B6C452A173F6D0030C94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6B6C432A173F6D0030C94E /* Main.storyboard */; };
+		4F6B6C472A173F6F0030C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6B6C462A173F6F0030C94E /* Assets.xcassets */; };
+		4F6B6C4A2A173F6F0030C94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6B6C482A173F6F0030C94E /* LaunchScreen.storyboard */; };
+		4F6B6C4D2A173F6F0030C94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B6C4C2A173F6F0030C94E /* main.m */; };
+		4F6B6C8C2A174EB80030C94E /* CPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B6C8A2A174EB70030C94E /* CPDFViewController.m */; };
+		C92996CE2B282EE500BD6587 /* Bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = C92996B92B282EE400BD6587 /* Bird.wav */; };
+		C92996CF2B282EE500BD6587 /* CommonFivePage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */; };
+		C92996D02B282EE500BD6587 /* ComPDFKit_Signatures_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */; };
+		C92996D12B282EE500BD6587 /* ComPDFKit_Measurement_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */; };
+		C92996D22B282EE500BD6587 /* Form_Widgets_Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */; };
+		C92996D32B282EE500BD6587 /* ComPDFKit_Forms_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */; };
+		C92996D42B282EE500BD6587 /* PDF32000_2008.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */; };
+		C92996D52B282EE500BD6587 /* ComPDFKit_Watermark_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */; };
+		C92996D62B282EE500BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */; };
+		C92996D72B282EE500BD6587 /* Blank Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C22B282EE400BD6587 /* Blank Page.pdf */; };
+		C92996D82B282EE500BD6587 /* Password_compdfkit_Security_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */; };
+		C92996D92B282EE500BD6587 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C92996C42B282EE400BD6587 /* Logo.png */; };
+		C92996DA2B282EE500BD6587 /* CreateAnnotationTest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */; };
+		C92996DB2B282EE500BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */; };
+		C92996DC2B282EE500BD6587 /* ComPDFKit_Sample_File_iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */; };
+		C92996DD2B282EE500BD6587 /* ComPDFKit_Viewer_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */; };
+		C92996DE2B282EE500BD6587 /* AllPasswords.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C92B282EE400BD6587 /* AllPasswords.pdf */; };
+		C92996DF2B282EE500BD6587 /* developer_guide_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */; };
+		C92996E02B282EE500BD6587 /* ComPDFKit_Annotations_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */; };
+		C92996E12B282EE500BD6587 /* text.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CC2B282EE400BD6587 /* text.pdf */; };
+		C92996E42B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */; };
+		C92996E52B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C92996E72B282F0B00BD6587 /* ComPDFKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */; };
+		C92996E82B282F0B00BD6587 /* ComPDFKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F384DB782A49362400798045 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F384DB762A49362400798045 /* XMLReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3C8DE482AD68B1F00DA7CD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C92996E52B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Embed Frameworks */,
+				C92996E82B282F0B00BD6587 /* ComPDFKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F6B6C372A173F6D0030C94E /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6B6C3A2A173F6D0030C94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F6B6C3B2A173F6D0030C94E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F6B6C3D2A173F6D0030C94E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4F6B6C3E2A173F6D0030C94E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4F6B6C442A173F6D0030C94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F6B6C462A173F6F0030C94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F6B6C492A173F6F0030C94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F6B6C4B2A173F6F0030C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6B6C4C2A173F6F0030C94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F6B6C8A2A174EB70030C94E /* CPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFViewController.m; sourceTree = "<group>"; };
+		4F6B6C8B2A174EB70030C94E /* CPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFViewController.h; sourceTree = "<group>"; };
+		C92996B92B282EE400BD6587 /* Bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bird.wav; sourceTree = "<group>"; };
+		C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CommonFivePage.pdf; sourceTree = "<group>"; };
+		C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Signatures_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Measurement_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Form_Widgets_Test.pdf; sourceTree = "<group>"; };
+		C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Forms_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF32000_2008.pdf; sourceTree = "<group>"; };
+		C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Watermark_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Document_Editor_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996C22B282EE400BD6587 /* Blank Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Blank Page.pdf"; sourceTree = "<group>"; };
+		C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Password_compdfkit_Security_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996C42B282EE400BD6587 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CreateAnnotationTest.pdf; sourceTree = "<group>"; };
+		C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Content_Editor_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Sample_File_iOS.pdf; sourceTree = "<group>"; };
+		C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Viewer_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996C92B282EE400BD6587 /* AllPasswords.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AllPasswords.pdf; sourceTree = "<group>"; };
+		C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = developer_guide_ios.pdf; sourceTree = "<group>"; };
+		C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Annotations_Sample_File.pdf; sourceTree = "<group>"; };
+		C92996CC2B282EE400BD6587 /* text.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = text.pdf; sourceTree = "<group>"; };
+		C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ComPDFKit_Tools.xcframework; path = ../Lib/ComPDFKit_Tools.xcframework; sourceTree = "<group>"; };
+		C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ComPDFKit.xcframework; path = ../Lib/ComPDFKit.xcframework; sourceTree = "<group>"; };
+		F384DB762A49362400798045 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		F384DB772A49362400798045 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		F384DBB32A4AE8CC00798045 /* PDFViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFViewer.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6B6C342A173F6D0030C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92996E42B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Frameworks */,
+				C92996E72B282F0B00BD6587 /* ComPDFKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F6B6C2E2A173F6D0030C94E = {
+			isa = PBXGroup;
+			children = (
+				C92996B82B282EE400BD6587 /* TestFile */,
+				F384DB2E2A48232E00798045 /* XMLParse */,
+				4F6B6C392A173F6D0030C94E /* PDFViewer */,
+				4F6B6C382A173F6D0030C94E /* Products */,
+				4F6B6C832A174D7C0030C94E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F6B6C382A173F6D0030C94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F6B6C372A173F6D0030C94E /* PDFViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F6B6C392A173F6D0030C94E /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F384DBB32A4AE8CC00798045 /* PDFViewer.entitlements */,
+				4F6B6C3A2A173F6D0030C94E /* AppDelegate.h */,
+				4F6B6C3B2A173F6D0030C94E /* AppDelegate.m */,
+				4F6B6C3D2A173F6D0030C94E /* SceneDelegate.h */,
+				4F6B6C3E2A173F6D0030C94E /* SceneDelegate.m */,
+				4F6B6C8B2A174EB70030C94E /* CPDFViewController.h */,
+				4F6B6C8A2A174EB70030C94E /* CPDFViewController.m */,
+				4F6B6C432A173F6D0030C94E /* Main.storyboard */,
+				4F6B6C462A173F6F0030C94E /* Assets.xcassets */,
+				4F6B6C482A173F6F0030C94E /* LaunchScreen.storyboard */,
+				4F6B6C4B2A173F6F0030C94E /* Info.plist */,
+				4F6B6C4C2A173F6F0030C94E /* main.m */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		4F6B6C832A174D7C0030C94E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */,
+				C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92996B82B282EE400BD6587 /* TestFile */ = {
+			isa = PBXGroup;
+			children = (
+				C92996B92B282EE400BD6587 /* Bird.wav */,
+				C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */,
+				C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */,
+				C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */,
+				C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */,
+				C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */,
+				C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */,
+				C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */,
+				C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */,
+				C92996C22B282EE400BD6587 /* Blank Page.pdf */,
+				C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */,
+				C92996C42B282EE400BD6587 /* Logo.png */,
+				C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */,
+				C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */,
+				C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */,
+				C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */,
+				C92996C92B282EE400BD6587 /* AllPasswords.pdf */,
+				C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */,
+				C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */,
+				C92996CC2B282EE400BD6587 /* text.pdf */,
+			);
+			name = TestFile;
+			path = ../TestFile;
+			sourceTree = "<group>";
+		};
+		F384DB2E2A48232E00798045 /* XMLParse */ = {
+			isa = PBXGroup;
+			children = (
+				F384DB772A49362400798045 /* XMLReader.h */,
+				F384DB762A49362400798045 /* XMLReader.m */,
+			);
+			name = XMLParse;
+			path = ../XMLParse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F6B6C362A173F6D0030C94E /* PDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6B6C502A173F700030C94E /* Build configuration list for PBXNativeTarget "PDFViewer" */;
+			buildPhases = (
+				4F6B6C332A173F6D0030C94E /* Sources */,
+				4F6B6C342A173F6D0030C94E /* Frameworks */,
+				4F6B6C352A173F6D0030C94E /* Resources */,
+				F3C8DE482AD68B1F00DA7CD3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewer;
+			productName = ComPDFKit;
+			productReference = 4F6B6C372A173F6D0030C94E /* PDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F6B6C2F2A173F6D0030C94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4F6B6C362A173F6D0030C94E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F6B6C322A173F6D0030C94E /* Build configuration list for PBXProject "PDFViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F6B6C2E2A173F6D0030C94E;
+			productRefGroup = 4F6B6C382A173F6D0030C94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F6B6C362A173F6D0030C94E /* PDFViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F6B6C352A173F6D0030C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92996DB2B282EE500BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf in Resources */,
+				C92996DD2B282EE500BD6587 /* ComPDFKit_Viewer_Sample_File.pdf in Resources */,
+				C92996D52B282EE500BD6587 /* ComPDFKit_Watermark_Sample_File.pdf in Resources */,
+				C92996E02B282EE500BD6587 /* ComPDFKit_Annotations_Sample_File.pdf in Resources */,
+				4F6B6C4A2A173F6F0030C94E /* LaunchScreen.storyboard in Resources */,
+				C92996D12B282EE500BD6587 /* ComPDFKit_Measurement_Sample_File.pdf in Resources */,
+				C92996CF2B282EE500BD6587 /* CommonFivePage.pdf in Resources */,
+				C92996CE2B282EE500BD6587 /* Bird.wav in Resources */,
+				4F6B6C472A173F6F0030C94E /* Assets.xcassets in Resources */,
+				C92996D72B282EE500BD6587 /* Blank Page.pdf in Resources */,
+				C92996D82B282EE500BD6587 /* Password_compdfkit_Security_Sample_File.pdf in Resources */,
+				C92996D62B282EE500BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf in Resources */,
+				C92996DE2B282EE500BD6587 /* AllPasswords.pdf in Resources */,
+				4F6B6C452A173F6D0030C94E /* Main.storyboard in Resources */,
+				C92996D22B282EE500BD6587 /* Form_Widgets_Test.pdf in Resources */,
+				C92996D42B282EE500BD6587 /* PDF32000_2008.pdf in Resources */,
+				C92996E12B282EE500BD6587 /* text.pdf in Resources */,
+				C92996D92B282EE500BD6587 /* Logo.png in Resources */,
+				C92996DF2B282EE500BD6587 /* developer_guide_ios.pdf in Resources */,
+				C92996D32B282EE500BD6587 /* ComPDFKit_Forms_Sample_File.pdf in Resources */,
+				C92996D02B282EE500BD6587 /* ComPDFKit_Signatures_Sample_File.pdf in Resources */,
+				C92996DC2B282EE500BD6587 /* ComPDFKit_Sample_File_iOS.pdf in Resources */,
+				C92996DA2B282EE500BD6587 /* CreateAnnotationTest.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F6B6C332A173F6D0030C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6B6C8C2A174EB80030C94E /* CPDFViewController.m in Sources */,
+				4F6B6C3C2A173F6D0030C94E /* AppDelegate.m in Sources */,
+				F384DB782A49362400798045 /* XMLReader.m in Sources */,
+				4F6B6C4D2A173F6F0030C94E /* main.m in Sources */,
+				4F6B6C3F2A173F6D0030C94E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F6B6C432A173F6D0030C94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F6B6C442A173F6D0030C94E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F6B6C482A173F6F0030C94E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F6B6C492A173F6F0030C94E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F6B6C4E2A173F6F0030C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F6B6C4F2A173F6F0030C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F6B6C512A173F700030C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PDFViewer/PDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GGQPGRTSV;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ComPDFKit;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "Your consent is required before selec file";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Enable camera access so that you can create scans with your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.compdfkit.pdfviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F6B6C522A173F700030C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PDFViewer/PDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GGQPGRTSV;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ComPDFKit;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "Your consent is required before selec file";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Enable camera access so that you can create scans with your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your consent is required before you could access the function.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.compdfkit.pdfviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F6B6C322A173F6D0030C94E /* Build configuration list for PBXProject "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6B6C4E2A173F6F0030C94E /* Debug */,
+				4F6B6C4F2A173F6F0030C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F6B6C502A173F700030C94E /* Build configuration list for PBXNativeTarget "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6B6C512A173F700030C94E /* Debug */,
+				4F6B6C522A173F700030C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F6B6C2F2A173F6D0030C94E /* Project object */;
+}
