@@ -39,11 +39,11 @@ In this guide, we take ***"PDFViewer"*** as an example to show how to run it in 
 
 2. Find ***"PDFViewer.xcodeproj"*** in the ***"Examples/Objective-C"*** folder and double-click to open it, find the schemes of ***"PDFViewer"*** in Xcode, and select the corresponding simulator (ComPDFKit does not support the simulator to run M1 chip, but we have made it compatible in `Excluded Architectures`, you can see the processing method in [Troubleshooting](#2.4.5 Troubleshooting)).
 
-   <img src="image/2-1-0.png" alt="2-1-0" width="50%" height="50%" />
+   <img align="center" src="image/2-1-0.png" alt="2-1-0" width="50%" height="50%" />
 
 3. Click **Product -> Run** to run the demo on an iOS device. In this guide, we use an iPhone 14 device as an example. After building the demo successfully, the ***"PDF32000_2008.pdf"*** file will be opened and displayed.
 
-   <img src="image/2-1-1.png" alt="2-1-1" width="20%" height="20%" />
+   <img align="center" src="image/2-1-1.png" alt="2-1-1" width="20%" height="20%" />
 
 **Note:** *This is a demo project, presenting completed [ComPDFKit PDF SDK](https://www.compdf.com/pdf-sdk) functions. The functions might be different based on the license you have purchased. Please check that the functions you choose work fine in this demo project.*
 
@@ -64,11 +64,11 @@ In this guide, we use Xcode 12.4 to create a new iOS project.
 
 1. Fire up Xcode, choose **File** -> **New** -> **Project...**, and then select **iOS** -> **Single View Application**. Click **Next**.
 
-<img src="image/2-2.png" width="50%" height="50%" />
+<img align="center" src="image/2-2.png" width="50%" height="50%" />
 
 2. Choose the options for your new project. Please make sure to choose Objective-C as the programming language. Then, click **Next**.
 
-<img src="image/2-3.png" width="50%" height="50%" />
+<img align="center" src="image/2-3.png" width="50%" height="50%" />
 
 3. Place the project to the location as desired. Then, click **Create**.
 
@@ -80,25 +80,25 @@ To add the dynamic xcframework ***"ComPDFKit.xcframework"*** into the ***"PDFVie
 
 1. Right-click the ***"PDFViewer"*** project, select **Add Files to "PDFViewer"...**.
 
-   <img src="image/2-4.png" width="50%" height="50%" />
+   <img align="center" src="image/2-4.png" width="50%" height="50%" />
 
 2. Find and choose ***"ComPDFKit.xcframework"*** in the download package, and then click **Add**.
 
    **Note:** *Make sure to check the **Copy items if needed** option.*
 
-   <img src="image/2-5.png" width="50%" height="50%" />
+   <img align="center" src="image/2-5.png" width="50%" height="50%" />
 
 3. Then, the ***"PDFViewer"*** project will look like the following picture.
 
-   <img src="image/2-6.png" width="50%" height="50%" />
+   <img align="center" src="image/2-6.png" width="50%" height="50%" />
 
 4. Add the dynamic xcframework ***"ComPDFKit.xcframework"*** to the Xcode's **Embedded Binaries**. Left-click the project, find **Embedded Binaries** in the **General** tab, and choose **Embed & Sign**.
 
-   <img src="image/2-7.png" width="50%" height="50%" />
+   <img align="center" src="image/2-7.png" width="50%" height="50%" />
 
 5. For earlier versions of Xcode (like Xcode 13), the Bitcode option might be turned on by default, which requires it to be turned off to run. The precise steps to do this are illustrated as shown in the picture below. 
 
-   <img src="image/2-7-1.jpg" alt="2-7-1" width="50%" height="50%" />
+   <img align="center" src="image/2-7-1.jpg" alt="2-7-1" width="50%" height="50%" />
 
 
 
@@ -133,7 +133,7 @@ So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** pro
 
 1. Prepare a test PDF file, and drag and drop it into the newly created **PDFView** project. In this way, you can load and preview the local PDF document using `NSBundle`. The following image shows an example of importing a PDF document named “Online5” into the project.
 
-   <img src="image/2-7-2.jpg" alt="2-7-2" width="50%" height="50%" />
+   <img align="center" src="image/2-7-2.jpg" alt="2-7-2" width="50%" height="50%" />
 
 2. Import `<ComPDFKit/ComPDFKit.h>`  at the top of your `UIViewController.m` subclass implementation:
 
@@ -182,7 +182,7 @@ So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** pro
 
 6. Connect your device or simulator, and use the shortcut **Command_R** to run the App. The PDF file will be opened and displayed.
 
-   <img src="image/2-7-3.jpg" alt="2-7-3" width="50%" height="50%" />
+   <img align="center" src="image/2-7-3.jpg" alt="2-7-3" width="50%" height="50%" />
 
 
 
@@ -203,7 +203,7 @@ So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** pro
 
    So you need to search for **Excluded Architectures** in **Build Settings** in **TARGETS**, and then double-click it. A pop-up window will be popped up, click the plus sign (as shown below) to add **i386**.
 
-   <img src="image/2-7-4.png" alt="2-7-4" width="50%" height="50%" />
+   <img align="center" src="image/2-7-4.png" alt="2-7-4" width="50%" height="50%" />
 
 4. No PDF Displayed
 
