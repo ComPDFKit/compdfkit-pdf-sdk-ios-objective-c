@@ -16,28 +16,20 @@
 		4F6B6C8C2A174EB80030C94E /* CPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B6C8A2A174EB70030C94E /* CPDFViewController.m */; };
 		C92996CE2B282EE500BD6587 /* Bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = C92996B92B282EE400BD6587 /* Bird.wav */; };
 		C92996CF2B282EE500BD6587 /* CommonFivePage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */; };
-		C92996D02B282EE500BD6587 /* ComPDFKit_Signatures_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */; };
-		C92996D12B282EE500BD6587 /* ComPDFKit_Measurement_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */; };
 		C92996D22B282EE500BD6587 /* Form_Widgets_Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */; };
-		C92996D32B282EE500BD6587 /* ComPDFKit_Forms_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */; };
 		C92996D42B282EE500BD6587 /* PDF32000_2008.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */; };
-		C92996D52B282EE500BD6587 /* ComPDFKit_Watermark_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */; };
-		C92996D62B282EE500BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */; };
 		C92996D72B282EE500BD6587 /* Blank Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C22B282EE400BD6587 /* Blank Page.pdf */; };
 		C92996D82B282EE500BD6587 /* Password_compdfkit_Security_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */; };
 		C92996D92B282EE500BD6587 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C92996C42B282EE400BD6587 /* Logo.png */; };
 		C92996DA2B282EE500BD6587 /* CreateAnnotationTest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */; };
-		C92996DB2B282EE500BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */; };
-		C92996DC2B282EE500BD6587 /* ComPDFKit_Sample_File_iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */; };
-		C92996DD2B282EE500BD6587 /* ComPDFKit_Viewer_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */; };
 		C92996DE2B282EE500BD6587 /* AllPasswords.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996C92B282EE400BD6587 /* AllPasswords.pdf */; };
 		C92996DF2B282EE500BD6587 /* developer_guide_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */; };
-		C92996E02B282EE500BD6587 /* ComPDFKit_Annotations_Sample_File.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */; };
 		C92996E12B282EE500BD6587 /* text.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C92996CC2B282EE400BD6587 /* text.pdf */; };
 		C92996E42B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */; };
 		C92996E52B282EF600BD6587 /* ComPDFKit_Tools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C92996E72B282F0B00BD6587 /* ComPDFKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */; };
 		C92996E82B282F0B00BD6587 /* ComPDFKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9673C262D26442B00F933CA /* license_key_ios.xml in Resources */ = {isa = PBXBuildFile; fileRef = C9673C252D26442B00F933CA /* license_key_ios.xml */; };
 		F384DB782A49362400798045 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F384DB762A49362400798045 /* XMLReader.m */; };
 /* End PBXBuildFile section */
 
@@ -71,26 +63,18 @@
 		4F6B6C8B2A174EB70030C94E /* CPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFViewController.h; sourceTree = "<group>"; };
 		C92996B92B282EE400BD6587 /* Bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bird.wav; sourceTree = "<group>"; };
 		C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CommonFivePage.pdf; sourceTree = "<group>"; };
-		C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Signatures_Sample_File.pdf; sourceTree = "<group>"; };
-		C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Measurement_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Form_Widgets_Test.pdf; sourceTree = "<group>"; };
-		C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Forms_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF32000_2008.pdf; sourceTree = "<group>"; };
-		C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Watermark_Sample_File.pdf; sourceTree = "<group>"; };
-		C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Document_Editor_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996C22B282EE400BD6587 /* Blank Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Blank Page.pdf"; sourceTree = "<group>"; };
 		C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Password_compdfkit_Security_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996C42B282EE400BD6587 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CreateAnnotationTest.pdf; sourceTree = "<group>"; };
-		C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Content_Editor_Sample_File.pdf; sourceTree = "<group>"; };
-		C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Sample_File_iOS.pdf; sourceTree = "<group>"; };
-		C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Viewer_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996C92B282EE400BD6587 /* AllPasswords.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AllPasswords.pdf; sourceTree = "<group>"; };
 		C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = developer_guide_ios.pdf; sourceTree = "<group>"; };
-		C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ComPDFKit_Annotations_Sample_File.pdf; sourceTree = "<group>"; };
 		C92996CC2B282EE400BD6587 /* text.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = text.pdf; sourceTree = "<group>"; };
 		C92996E32B282EF600BD6587 /* ComPDFKit_Tools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ComPDFKit_Tools.xcframework; path = ../Lib/ComPDFKit_Tools.xcframework; sourceTree = "<group>"; };
 		C92996E62B282F0B00BD6587 /* ComPDFKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ComPDFKit.xcframework; path = ../Lib/ComPDFKit.xcframework; sourceTree = "<group>"; };
+		C9673C252D26442B00F933CA /* license_key_ios.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = license_key_ios.xml; path = ../license_key_ios.xml; sourceTree = "<group>"; };
 		F384DB762A49362400798045 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		F384DB772A49362400798045 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		F384DBB32A4AE8CC00798045 /* PDFViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFViewer.entitlements; sourceTree = "<group>"; };
@@ -112,6 +96,7 @@
 		4F6B6C2E2A173F6D0030C94E = {
 			isa = PBXGroup;
 			children = (
+				C9673C252D26442B00F933CA /* license_key_ios.xml */,
 				C92996B82B282EE400BD6587 /* TestFile */,
 				F384DB2E2A48232E00798045 /* XMLParse */,
 				4F6B6C392A173F6D0030C94E /* PDFViewer */,
@@ -161,23 +146,14 @@
 			children = (
 				C92996B92B282EE400BD6587 /* Bird.wav */,
 				C92996BA2B282EE400BD6587 /* CommonFivePage.pdf */,
-				C92996BB2B282EE400BD6587 /* ComPDFKit_Signatures_Sample_File.pdf */,
-				C92996BC2B282EE400BD6587 /* ComPDFKit_Measurement_Sample_File.pdf */,
 				C92996BD2B282EE400BD6587 /* Form_Widgets_Test.pdf */,
-				C92996BE2B282EE400BD6587 /* ComPDFKit_Forms_Sample_File.pdf */,
 				C92996BF2B282EE400BD6587 /* PDF32000_2008.pdf */,
-				C92996C02B282EE400BD6587 /* ComPDFKit_Watermark_Sample_File.pdf */,
-				C92996C12B282EE400BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf */,
 				C92996C22B282EE400BD6587 /* Blank Page.pdf */,
 				C92996C32B282EE400BD6587 /* Password_compdfkit_Security_Sample_File.pdf */,
 				C92996C42B282EE400BD6587 /* Logo.png */,
 				C92996C52B282EE400BD6587 /* CreateAnnotationTest.pdf */,
-				C92996C62B282EE400BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf */,
-				C92996C72B282EE400BD6587 /* ComPDFKit_Sample_File_iOS.pdf */,
-				C92996C82B282EE400BD6587 /* ComPDFKit_Viewer_Sample_File.pdf */,
 				C92996C92B282EE400BD6587 /* AllPasswords.pdf */,
 				C92996CA2B282EE400BD6587 /* developer_guide_ios.pdf */,
-				C92996CB2B282EE400BD6587 /* ComPDFKit_Annotations_Sample_File.pdf */,
 				C92996CC2B282EE400BD6587 /* text.pdf */,
 			);
 			name = TestFile;
@@ -252,28 +228,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92996DB2B282EE500BD6587 /* ComPDFKit_Content_Editor_Sample_File.pdf in Resources */,
-				C92996DD2B282EE500BD6587 /* ComPDFKit_Viewer_Sample_File.pdf in Resources */,
-				C92996D52B282EE500BD6587 /* ComPDFKit_Watermark_Sample_File.pdf in Resources */,
-				C92996E02B282EE500BD6587 /* ComPDFKit_Annotations_Sample_File.pdf in Resources */,
 				4F6B6C4A2A173F6F0030C94E /* LaunchScreen.storyboard in Resources */,
-				C92996D12B282EE500BD6587 /* ComPDFKit_Measurement_Sample_File.pdf in Resources */,
 				C92996CF2B282EE500BD6587 /* CommonFivePage.pdf in Resources */,
 				C92996CE2B282EE500BD6587 /* Bird.wav in Resources */,
 				4F6B6C472A173F6F0030C94E /* Assets.xcassets in Resources */,
 				C92996D72B282EE500BD6587 /* Blank Page.pdf in Resources */,
 				C92996D82B282EE500BD6587 /* Password_compdfkit_Security_Sample_File.pdf in Resources */,
-				C92996D62B282EE500BD6587 /* ComPDFKit_Document_Editor_Sample_File.pdf in Resources */,
 				C92996DE2B282EE500BD6587 /* AllPasswords.pdf in Resources */,
 				4F6B6C452A173F6D0030C94E /* Main.storyboard in Resources */,
 				C92996D22B282EE500BD6587 /* Form_Widgets_Test.pdf in Resources */,
+				C9673C262D26442B00F933CA /* license_key_ios.xml in Resources */,
 				C92996D42B282EE500BD6587 /* PDF32000_2008.pdf in Resources */,
 				C92996E12B282EE500BD6587 /* text.pdf in Resources */,
 				C92996D92B282EE500BD6587 /* Logo.png in Resources */,
 				C92996DF2B282EE500BD6587 /* developer_guide_ios.pdf in Resources */,
-				C92996D32B282EE500BD6587 /* ComPDFKit_Forms_Sample_File.pdf in Resources */,
-				C92996D02B282EE500BD6587 /* ComPDFKit_Signatures_Sample_File.pdf in Resources */,
-				C92996DC2B282EE500BD6587 /* ComPDFKit_Sample_File_iOS.pdf in Resources */,
 				C92996DA2B282EE500BD6587 /* CreateAnnotationTest.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
