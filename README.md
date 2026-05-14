@@ -1,115 +1,143 @@
-# Introduction
+# ComPDF SDK for iOS (Objective-C PDF Library)
 
-[ComPDFKit](https://www.compdf.com/) PDF SDK for iOS is a robust PDF library for developers who need to develop applications on iOS, which offers powerful Objective-C APIs for quickly viewing, annotating, editing, and creating PDFs. It is feature-rich and battle-tested, making PDF files process and manipulation easier and faster for iOS devices.
+As part of the KDAN ecosystem, [ComPDF SDK for iOS](https://www.compdf.com/ios?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) provides a robust Objective-C PDF library for developers who need to build viewing, annotation, editing, form, and signing workflows in iOS apps.
 
-[ComPDFKit API](https://api.compdf.com/api/pricing) allows you to get 1000 files processing monthly now! Just [sign up](https://api.compdf.com/signup) for a free trial and enjoy comprehensive PDF functions.
+The ComPDF iOS PDF Library combines native Objective-C APIs with production-ready PDF components so teams can integrate document features faster.
 
-# Related
-
-- [ComPDFKit PDF Library for Android](https://github.com/ComPDFKit/PDF-SDK-Android)
-- ComPDFKit PDF SDK - [Flutter Library](https://pub.dev/packages/compdfkit_flutter)
-- ComPDFKit PDF SDK - [React Native Library](https://www.compdf.com/react-native)
-- [How to Build an iOS PDF Viewer or Editor in Objective-C](https://www.compdf.com/blog/build-an-ios-pdf-viewer-or-editor-in-objective-c)
-- [How to Build an iOS PDF Viewer or Editor in Swift](https://www.compdf.com/blog/build-an-ios-pdf-viewer-or-editor-in-swift)
-
-# Get Started
-
-It is easy to embed ComPDFKit in your iOS app with a few lines of Objective-C code. Take just a few minutes and get started. 
-
-The following sections introduce the structure of the installation package, how to run a demo, and how to make an iOS app in Objective-C with [ComPDFKit iOS PDF SDK.](https://www.compdf.com/ios) 
+[ComPDF SDK](https://www.compdf.com/?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) seamlessly operates on [Web](https://www.compdf.com/web?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), [Windows](https://www.compdf.com/windows?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), [Android](https://www.compdf.com/android?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), [iOS](https://www.compdf.com/ios?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), [Mac](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), and [Server](https://www.compdf.com/server?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), with support for cross-platform frameworks such as [React Native](https://www.compdf.com/react-native?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), [Flutter](https://www.compdf.com/flutter?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c), etc.
 
 
+
+If you find ComPDF SDK useful, please consider giving us a ⭐ **Star** on GitHub — it helps us grow and improve! Got questions or ideas? Join the conversation in our [Discussions](https://github.com/ComPDFKit/compdfkit-pdf-sdk-ios-objective-c/discussions).
+
+<img src="image/android-demo.gif" title="" alt="Android Demo GIF" data-align="center">
+
+---
+
+**Why ComPDF SDK for iOS?**
+
+* **Easy to Integrate:** Integrate PDF functionalities easily with our powerful SDK and clear documentation and guides with few lines of code.
+
+* **Fully Customizable UI:** Design a unique interface for your products with fully customizable UI source code by a high-performing SDK.
+
+* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)** Supports generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
+
+* **Faster Time-to-Market:** Comprehensive SDK libraries save your time and expenses and roll out your applications and projects.
+
+* **High-quality Service:** We provide 24/7 professional one-to-one technical support, including onsite service and remote assistance via phone and email.
+
+---
+
+## Table of Contents
+
+- [Related](#related)
+- [Preview](#preview)
+- [Requirements](#requirements)
+- [Run the Demo](#run-the-demo)
+- [How to Make an iOS App in Objective-C](#how-to-make-an-ios-app-in-objective-c)
+- [Samples](#samples)
+- [Changelog](#changelog)
+- [Free Trial & License](#free-trial)
+- [Support](#support)
+
+---
+
+## Related
+
+- [ComPDF PDF Library for Android](https://github.com/ComPDFKit/PDF-SDK-Android)
+- ComPDF SDK - [Flutter Library](https://pub.dev/packages/compdfkit_flutter)
+- ComPDF SDK - [React Native Library](https://www.compdf.com/react-native?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
+- [How to Build an iOS PDF Viewer or Editor in Objective-C](https://www.compdf.com/blog/build-an-ios-pdf-viewer-or-editor-in-objective-c?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
+- [How to Build an iOS PDF Viewer or Editor in Swift](https://www.compdf.com/blog/build-an-ios-pdf-viewer-or-editor-in-swift?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
+
+---
+
+## Preview
+
+ComPDF SDK for iOS delivers a smooth, feature-rich PDF experience on ios devices.
+
+![ComPDF SDK for iOS UI](image/compdf-sdk-ios-ui.png)
+
+---
 
 ## Requirements
 
-[ComPDFKit PDF SDK for iOS](https://www.compdf.com/guides/pdf-sdk/ios/overview) requires the latest stable version of Xcode available at the time the release was made. This is a hard requirement, as each version of Xcode is bundled with a specific version of the iOS Base SDK, which often defines how UIKit and various other frameworks behave. 
+[ComPDF SDK for iOS](https://www.compdf.com/guides/pdf-sdk/ios/overview?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) requires the latest stable version of Xcode available at the time the release was made. This is a hard requirement, as each version of Xcode is bundled with a specific version of the iOS Base SDK, which often defines how UIKit and various other frameworks behave. 
 
 - iOS 10.0 or higher.
 - Xcode 13.0 or newer for Objective-C or Swift.
 
+---
 
+## Run the Demo
 
-## How to Run a Demo
-
-ComPDFKit PDF SDK for iOS provides multiple demos in Objective-C for developers to learn how to call the SDK on iOS. You can find them in the ***"Examples/Objective-C"*** folder.
+ComPDF SDK for iOS provides multiple demos in Objective-C for developers to learn how to call the SDK on iOS. You can find them in the ***"Examples/Objective-C"*** folder.
 
 In this guide, we take ***"PDFViewer"*** as an example to show how to run it in Xcode (The demo in Objective-C uses the ***"xcodeproj"*** method, so you can directly open ***"PDFViewer.xcodeproj"***).
 
 1. Copy the applied ***"license_key_ios.xml"*** file to ***"Examples"*** folder to replace (There is already a method to parse the xml file in demo, please do not modify the storage location and file name).
 
-2. Find ***"PDFViewer.xcodeproj"*** in the ***"Examples/Objective-C"*** folder and double-click to open it, find the schemes of ***"PDFViewer"*** in Xcode, and select the corresponding simulator (ComPDFKit does not support the simulator to run M1 chip, but we have made it compatible in `Excluded Architectures`, you can see the processing method in **Troubleshooting**.
-
-   <img align="center" src="image/2-1-0.png" alt="2-1-0" width="50%" height="50%" />
+2. Find ***"PDFViewer.xcodeproj"*** in the ***"Examples/Objective-C"*** folder and double-click to open it, find the schemes of ***"PDFViewer"*** in Xcode, and select the corresponding simulator (ComPDF does not support the simulator to run M1 chip, but we have made it compatible in `Excluded Architectures`, you can see the processing method in **Troubleshooting**.
+   ![2-1-0](image/2-1-0.png)
 
 3. Click **Product -> Run** to run the demo on an iOS device. In this guide, we use an iPhone 14 device as an example. After building the demo successfully, the ***"PDF32000_2008.pdf"*** file will be opened and displayed.
+   ![2-1-1](image/2-1-1.png)
 
-   <img align="center" src="image/2-1-1.png" alt="2-1-1" width="20%" height="20%" />
+**Note:** *This is a demo project, presenting completed [ComPDF SDK](https://www.compdf.com/pdf-sdk?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) functions. The functions might be different based on the license you have purchased. Please check that the functions you choose work fine in this demo project.*
 
-**Note:** *This is a demo project, presenting completed [ComPDFKit PDF SDK](https://www.compdf.com/pdf-sdk) functions. The functions might be different based on the license you have purchased. Please check that the functions you choose work fine in this demo project.*
+---
 
+## How to Make an iOS App in Objective-C
 
-
-## How to Make an iOS App in Objective-C with ComPDFKit
-
-This section will help you to quickly get started with ComPDFKit PDF SDK to make an iOS app in Objective-C with step-by-step instructions, which include the following steps:
+This section will help you to quickly get started with ComPDF SDK to make an iOS app in Objective-C with step-by-step instructions, which include the following steps:
 
 - Create a new iOS project in Objective-C.
-- Integrate ComPDFKit into your apps.
+- Integrate ComPDF into your apps.
 - Apply the license key.
 - Display a PDF document.
 
-### Create a New iOS Project in Objective-C
+### Create a New Project
 
 In this guide, we use Xcode 12.4 to create a new iOS project.
 
 1. Fire up Xcode, choose **File** -> **New** -> **Project...**, and then select **iOS** -> **Single View Application**. Click **Next**.
 
-<img align="center" src="image/2-2.png" width="50%" height="50%" />
+![2-2](image/2-2.png)
 
 2. Choose the options for your new project. Please make sure to choose Objective-C as the programming language. Then, click **Next**.
 
-<img align="center" src="image/2-3.png" width="50%" height="50%" />
+![2-3](image/2-3.png)
 
 3. Place the project to the location as desired. Then, click **Create**.
 
+### Integrate ComPDF into Your Apps
 
-
-### Integrate ComPDFKit into Your Apps
-
-To add the dynamic xcframework ***"ComPDFKit.xcframework"*** into the ***"PDFViewer"*** project, please follow the steps below:
+To add the dynamic xcframework ***"ComPDF.xcframework"*** into the ***"PDFViewer"*** project, please follow the steps below:
 
 1. Right-click the ***"PDFViewer"*** project, select **Add Files to "PDFViewer"...**.
+   ![2-4](image/2-4.png)
 
-   <img align="center" src="image/2-4.png" width="50%" height="50%" />
-
-2. Find and choose ***"ComPDFKit.xcframework"*** in the download package, and then click **Add**.
-
+2. Find and choose ***"ComPDF.xcframework"*** in the download package, and then click **Add**.
    **Note:** *Make sure to check the **Copy items if needed** option.*
-
-   <img align="center" src="image/2-5.png" width="50%" height="50%" />
+   ![2-5](image/2-5.png)
 
 3. Then, the ***"PDFViewer"*** project will look like the following picture.
+   ![2-6](image/2-6.png)
 
-   <img align="center" src="image/2-6.png" width="50%" height="50%" />
-
-4. Add the dynamic xcframework ***"ComPDFKit.xcframework"*** to the Xcode's **Embedded Binaries**. Left-click the project, find **Embedded Binaries** in the **General** tab, and choose **Embed & Sign**.
-
-   <img align="center" src="image/2-7.png" width="50%" height="50%" />
+4. Add the dynamic xcframework ***"ComPDF.xcframework"*** to the Xcode's **Embedded Binaries**. Left-click the project, find **Embedded Binaries** in the **General** tab, and choose **Embed & Sign**.
+   ![2-7](image/2-7.png)
 
 5. For earlier versions of Xcode (like Xcode 13), the Bitcode option might be turned on by default, which requires it to be turned off to run. The precise steps to do this are illustrated as shown in the picture below. 
-
-   <img align="center" src="image/2-7-1.jpg" alt="2-7-1" width="50%" height="50%" />
-
-
+   ![2-7-1](image/2-7-1.jpg)
 
 ### Apply the License Key
 
-Contact [ComPDFKit's sales team](https://www.compdf.com/contact-sales) to get a license for free to test this project. 
+Contact [ComPDF's sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) to get a license for free to test this project. 
 
-1. Import the header file ***"ComPDFKit/ComPDFKit.h"*** to `AppDelegate.m`.
+1. Import the header file ***"ComPDF/ComPDF.h"*** to `AppDelegate.m`.
 
 2. Follow the code below and call the method `CPDFKit verifyWithKey:@"LICENSE_KEY"` in `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`. You need to replace the  **LICENSE_KEY** with the license you obtained.
-
+   
    ```objective-c
    #import <ComPDFKit/ComPDFKit.h>
    
@@ -117,32 +145,30 @@ Contact [ComPDFKit's sales team](https://www.compdf.com/contact-sales) to get a 
      // Set your license key here. ComPDFKit is commercial software.
      // Each ComPDFKit license is bound to a specific app bundle id.
      // com.compdfkit.pdfviewer
-       
+   
        [CPDFKit verifyWithKey:@"YOUR_LICENSE_KEY_GOES_HERE"];
-       
+   
        return YES;
    }
    ```
 
 3. Compile and run the project. If the console outputs "version information", it means that the license has been set successfully. Otherwise, please check "[Troubleshooting](#2.4.5 Troubleshooting)" or check error logs in the console to quickly identify and solve the issue. 
 
-
 ### Display a PDF Document
 
-So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** project and finished the initialization of the ComPDFKit PDF SDK. Now, let’s start building a simple PDF viewer with just a few lines of code.
+So far, we have added ***"ComPDF.xcframework"*** to the ***"PDFViewer"*** project and finished the initialization of the ComPDF SDK. Now, let’s start building a simple PDF viewer with just a few lines of code.
 
 1. Prepare a test PDF file, and drag and drop it into the newly created **PDFView** project. In this way, you can load and preview the local PDF document using `NSBundle`. The following image shows an example of importing a PDF document named “Online5” into the project.
-
-   <img align="center" src="image/2-7-2.jpg" alt="2-7-2" width="50%" height="50%" />
+   ![2-7-2](image/2-7-2.jpg)
 
 2. Import `<ComPDFKit/ComPDFKit.h>`  at the top of your `UIViewController.m` subclass implementation:
-
+   
    ```objective-c
    #import <ComPDFKit/ComPDFKit.h>
    ```
 
 3. Create a `CPDFDocument` object through **NSURL**, and create a `CPDFView` to display it. The following code shows how to load PDF data using a local PDF path and display it by `CPDFView`.
-
+   
    ```objective-c
    NSBundle *bundle  = [NSBundle mainBundle];
    NSString *pdfPath= [bundle pathForResource:@"Online5" ofType:@"pdf"];
@@ -156,17 +182,17 @@ So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** pro
    ```
 
 4. Add the created `CPDFView` to the view of the current controller. The sample code is shown below.
-
+   
    ```objective-c
     [self.view addSubview:pdfView];
    ```
 
 5. The code shown here is a collection of the steps mentioned above:
-
+   
    ```objective-c
    - (void)viewWillAppear:(BOOL)animated {
        [super viewWillAppear:animated];
-       
+   
        NSBundle *bundle  = [NSBundle mainBundle];
        NSString *pdfPath= [bundle pathForResource:@"Online5" ofType:@"pdf"];
        NSURL *url = [NSURL fileURLWithPath:pdfPath];
@@ -181,66 +207,59 @@ So far, we have added ***"ComPDFKit.xcframework"*** to the ***"PDFViewer"*** pro
    ```
 
 6. Connect your device or simulator, and use the shortcut **Command_R** to run the App. The PDF file will be opened and displayed.
-
-   <img align="center" src="image/2-7-3.jpg" alt="2-7-3" width="50%" height="50%" />
-
-
+   ![2-7-3](image/2-7-3.jpg)
 
 ### Troubleshooting
 
 1. Bitcode
-
    Even when all configurations are correct, there may still be compilation errors. First, check if the Bitcode is disabled. In earlier versions of Xcode (such as Xcode 13), the Bitcode option may be enabled by default. It needs to be set to **No** in order to run the app.
 
 2. License
-
-   If a License setting error occurs, ensure that the Identity (Bundle ID) setting in **General** matches the Bundle ID you provided when contacting us for the license. If an expired License message appears, please contact the [ComPDFKit team](https://www.compdf.com/contact-us) to obtain the latest License and Key.
-
+   If a License setting error occurs, ensure that the Identity (Bundle ID) setting in **General** matches the Bundle ID you provided when contacting us for the license. If an expired License message appears, please contact the [ComPDF team](https://www.compdf.com/contact-us?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) to obtain the latest License and Key.
 
 3. Cannot Run on i386 Architecture Simulator
-
    The version of Xcode 12.5 or newer, doesn't support i386 simulators. Apple dropped the i386 after switching to ARM processors and no longer maintains i386 architecture simulators. Please use ARM simulators or x86_64 architecture simulators to test and develop your program.
-
    So you need to search for **Excluded Architectures** in **Build Settings** in **TARGETS**, and then double-click it. A pop-up window will be popped up, click the plus sign (as shown below) to add **i386**.
-
-   <img align="center" src="image/2-7-4.png" alt="2-7-4" width="50%" height="50%" />
+   ![2-7-4](image/2-7-4.png)
 
 4. No PDF Displayed
-
    Check if the special encoding is required in the path we passed in, or if the local path we passed in exists.
 
-
 5. Other Problems
+   If you meet some other problems when integrating our ComPDF SDK for iOS, feel free to contact [ComPDF's support team](https://www.compdf.com/support?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c).
 
-   If you meet some other problems when integrating our ComPDFKit PDF SDK for iOS, feel free to contact [ComPDFKit's support team](https://www.compdf.com/support).
+---
 
-# Samples
+## Samples
 
-There are many samples in the **Samples** folder that demonstrate the main features of the [ComPDFKit API](https://api.compdf.com/) and how to use them, such as adding watermarks, comments, forms, etc. to PDFs. You can copy the code, add it to your project and run it directly. Or, you can get our [code examples for iOS](https://www.compdf.com/guides/pdf-sdk/ios/examples). To learn more about the ComPDFKit API, please visit our [API Reference](https://developers.compdf.com/guides/pdf-sdk/ios/api-reference/index).
+There are many samples in the **Samples** folder that demonstrate the main features of the [ComPDF API](https://api.compdf.com/?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) and how to use them, such as adding watermarks, comments, forms, etc. to PDFs. You can copy the code, add it to your project and run it directly. Or, you can get our [code examples for iOS](https://www.compdf.com/guides/pdf-sdk/ios/examples?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c). To learn more about the ComPDF API, please visit our [API Reference](https://developers.compdf.com/guides/pdf-sdk/ios/api-reference/index?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c).
 
+---
 
-# Support
+## Changelog
 
-[ComPDFKit]((https://www.compdf.com)) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
+Keep up with the latest updates, improvements, and bug fixes for ComPDF SDK for iOS: [View iOS Changelog](https://www.compdf.com/pdf-sdk/changelog-ios?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
 
-- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/ios/overview) page.
+---
 
-- Stay updated with the latest improvements through our [Changelog](https://www.compdf.com/pdf-sdk/changelog-ios).
+## Free Trial & License
 
-- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support).
+[ComPDF SDK for iOS](https://www.compdf.com/?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) offers a **30-day free trial** so you can evaluate core PDF capabilities in your own application.
 
-- To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us).
+To get started:
 
+1. Apply for a [free trial](https://www.compdf.com/pricing?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
+2. Review supported trial features and licensing details
+3. Follow the integration and license steps above to activate the SDK in your project
 
+For custom deployments, advanced features, or volume licensing, please [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c)
 
+---
 
-# License
+## Support
 
-ComPDFKit PDF SDK supports flexible licensing options, please contact [our sales team](mailto:support@compdf.com) to know more. Each license is only valid for one application ID in development mode.  However, any documents, sample code, or source code distribution from the released package of ComPDFKit PDF SDK to any third party is prohibited.
+[ComPDF](https://www.compdf.com/?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
 
-
-
-# Note
-
-We are glad to announce that you can register a ComPDFKit API account for a [free trial](https://api.compdf.com/api/pricing) to process 1000 documents per month for free.
-
+- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/ios/overview?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) page.
+- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c).
+- To get more details and an accurate quote, please contact our [Sales Team](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_ios_objective_c&utm_medium=referral&utm_campaign=github_readme_sdk_ios_objective_c) or [send an email](mailto:support@compdf.com).
